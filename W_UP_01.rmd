@@ -65,7 +65,9 @@ It looks like the skill players are doing way more pushups than the line players
 t.test(pushups~position,data=mydata)
 ```
 
+If there is no difference between how many pushups a skill player and a line player can do is .000009421. This is a example of the difference between how many pushups a skill player can do rather than a line player statistically. 
+
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
