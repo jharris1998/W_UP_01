@@ -21,11 +21,11 @@ mydata <- read.csv(file="pushups.csv")
 
 <!--In this section you explain what you are trying to show. Where did the data come from? What is the research or other question you are trying to answer?!-->
 
-Create an Rstudio project in your shared space on rstudio.cloud.  Using the dataset called pushups from the tigerstats package in R; answer the question posed by this null and alternate hypothesis in an html markdown document.
+Create an Rstudio project in your shared space on rstudio.cloud.  Using the data set called push ups from the tiger stats package in R; answer the question posed by this null and alternate hypothesis in an html markdown document.
 
-$H_0$: There is no difference between the average number of pushups of line vs skill players
+$H_0$: There is no difference between the average number of push ups of line vs skill players
 
-$H_A$: The average number of pushups done by line players is statistically different than that of skill players.
+$H_A$: The average number of push ups done by line players is statistically different than that of skill players.
 
 # Methods
 
@@ -45,7 +45,7 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 boxplot(pushups~position,data=mydata)
 ```
 
-Looking at my boxplot it looks like the skill players are doin way more pishups than the line players. 
+Looking at my box plot it looks like the skill players are doing way more push ups than the line players. 
 
 ### Numerical Descriptive Results
 
@@ -55,7 +55,7 @@ Looking at my boxplot it looks like the skill players are doin way more pishups 
 favstats(pushups~position,data=mydata)
 ```
 
-It looks like the skill players are doing way more pushups than the line players. The average amount of pushups the line players did was 17 and the skill players is roughly 50 pushups. 
+It looks like the skill players are doing way more push ups than the line players. The average amount of push ups the line players did was 17 and the skill players is roughly 50 push ups. 
 
 ## Inferential Results
 
@@ -65,7 +65,7 @@ It looks like the skill players are doing way more pushups than the line players
 t.test(pushups~position,data=mydata)
 ```
 
-If there is no difference between how many pushups a skill player and a line player can do is .000009421. This is a example of the difference between how many pushups a skill player can do rather than a line player statistically. 
+If there is no difference between how many push ups a skill player and a line player can do is .000009421. This is a example of the difference between how many push ups a skill player can do rather than a line player statistically. 
 
 # Discussion and Conclusion
 
