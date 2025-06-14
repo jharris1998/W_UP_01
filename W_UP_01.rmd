@@ -71,3 +71,4 @@ If there is no difference between how many pushups a skill player and a line pla
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+Using helper file and analyzing the data , from what I gathered I the skill players have a better ability of doing more push ups than the line players. Also, I've learned about the box plot to help determine the amount of push ups players can do. Also, the t.test was applied and used frequently and it shows after the test is ran the results were .00000942. 
